@@ -2,28 +2,38 @@
   width: 50%;
   font-style: italic;
 }
+
 p.lorem {
   width: 75%;
   font-weight: bold;
 }
-h1 {text-align: center;
+
+.header {text-align: center;
 }
-h2 {text-align: center;
-}
-h3 {
-  text-align: center
-}
+
 body {
   background-color: gray;
 }
-#fin {
-  color: red;
-  font-style: italic;
-  text-align: center;
-}
+
 .img{
   width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .column {
+    float: left;
+    width: 150px;
+    padding: 20px;
+  }
+  section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+  }
 }
