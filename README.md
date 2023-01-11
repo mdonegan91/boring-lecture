@@ -2,12 +2,13 @@
 
 #### By _**Molly Donegan**_
 
-#### _A practice website for working with CSS_
+#### _A practice website for working with HTML, CSS & JavaScript_
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
+* _JavaScript_
 
 ## Description
 
