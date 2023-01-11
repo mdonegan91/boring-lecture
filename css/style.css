@@ -1,38 +1,43 @@
 .intro {
-  font-style: italic;
+    font-style: italic;
 }
 
-.lorem {
-  color: gray;
+body {
+    color: gray;
+}
+
+section {
+    font-size: 20px;
 }
 
 .header {
-  text-align: center;
+    text-align: center;
 }
 
-.img{
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
-  .column {
-    float: left;
-    width: 150px;
-    padding: 20px;
-  }
-  section {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-auto-flow: column;
-  }
+    .column {
+        float: left;
+        width: 150px;
+        padding: 20px;
+    }
+
+    section {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-auto-flow: column;
+    }
 }
 
 @media screen and (max-width: 700px) {
-  .lorem {
-    background-color: lavender;
-  }
+    .lorem {
+        background-color: lavender;
+    }
 }
